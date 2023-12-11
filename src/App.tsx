@@ -1,10 +1,12 @@
 import './App.css';
-import Button from '@mui/material/Button';
+import { Footer, Header, Main } from './components/layout';
 
 function App() {
   return (
-    <div className="App">
-      <Button>xdd</Button>
+    <div className="app">
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
